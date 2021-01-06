@@ -1,0 +1,37 @@
+* {
+    margin: 1.2rem auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    background: rgb(26, 26, 26);
+}
+
+input {
+    margin: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: hsl(0, 0%, 10%);
+    color: hsl(0, 0%, 100%);
+    padding: .5em 0.5em;
+    text-transform: uppercase;
+    border: 0;
+    border-radius: 0.25em;
+    box-shadow: 0 0 2px 2px hsl(0, 0%, 10%), 0 0 2px 3px rgb(94, 0, 182);
+    transition: 0.1s all ease;
+    outline: none;
+    background: transparent;
+  }
+
+input:-webkit-autofill {
+    background: transparent;
+}
+
+.mobloginbutton {
+    margin-top: 1rem;
+    padding: .5rem 1.5rem;
+    border: 0;
+    border: 1px solid rgb(129, 129, 129);
+    border-radius: .2rem;
+    color: rgb(117, 117, 117);
+    cursor: pointer;
+}
